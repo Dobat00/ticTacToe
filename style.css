@@ -1,0 +1,24 @@
+#board{
+    height:450px;
+    width:450px;
+    display:grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    justify-items:center;
+    align-items:center;
+}
+.board-square{
+    display:flex;
+    content:center;
+    align-items:center;
+    font-size:100px;
+    height:100%;
+    width:100%;
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.board-div:hover{
+    background-color:lightseagreen;
+}
