@@ -39,6 +39,26 @@ function gameIsOn(){
     }
     
 
+
+// function createBoard(){
+//     function createDiv(){
+//         const board = document.getElementById('board')
+//         let boardDiv = docuemnt.createElement('div')
+//         boardDiv.classList.add('board-div')
+//         boardDiv.addEvenetListener('click', function(){
+//             console.log('clicado')
+//         })
+//         board.appendChild(boardDiv)
+//         return boardDiv
+//     }
+//     return{
+//         render(){
+//             for (let i = 0; i<9; i++){
+//                 createDiv()
+//             }
+//         }
+//     }
+// }
 function createBoard() {
     function createDiv(track) {
         const board = document.getElementById('board')
@@ -67,18 +87,4 @@ function createBoard() {
 const game = gameIsOn()
 game.start()
 
-function teste1(param1){
-    console.log(`esse eh o param1 ${param1}`)
-}
 
-const teste2 = param2 =>{
-    console.log(`esse eh o param2 ${param2}`)
-}
-
-const teste3 = (param3) => {
-    console.log(`esse eh o param3 ${param3}`)
-}
-
-teste1(1);
-teste2(2);
-teste3(3);
